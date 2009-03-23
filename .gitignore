@@ -1,0 +1,9 @@
+log
+log/*
+tmp
+tmp/*
+.DS_Store
+support
+support/*
+cache
+cache/*
