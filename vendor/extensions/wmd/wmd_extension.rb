@@ -15,9 +15,10 @@ class WmdExtension < Radiant::Extension
   def activate
     Page.send :include, WmdTags
     # admin.page.edit.add :node, 'wmd_extra', :after => "edit_header"
-    # admin.page.edit.add :part_controls, "wmd_extra"
-    admin.page.edit.add :form, "/admin/page/wmd_extra"
-    admin.page.edit.add :form, "wmd_extra"
+    admin.page.edit.add :part_controls, "wmd_extra"
+    admin.page.edit.add :part_controls, "wmd_preview"
+    # admin.page.edit.add :form, "/admin/page/wmd_extra"
+    # admin.page.edit.add :form, "/admin/page/wmd_extra"
     # admin.tabs.add "Wmd", "/admin/wmd", :after => "Layouts", :visibility => [:all]
   end
   

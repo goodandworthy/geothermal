@@ -1,0 +1,2 @@
+#wmd-preview-wrapper{position: relative; }
+.wmd-preview{position: absolute; top: 45px; right: 30px; width: 50%;  height: 245px; overflow: auto; background: #fff;z-index: 100; opacity: 0.7; border: 1px dashed #555; padding: 10px;}
