@@ -7,3 +7,5 @@ support
 support/*
 cache
 cache/*
+database.yml
+deploy.rb
